@@ -1,0 +1,1841 @@
+{
+  "name": "AI notetakers: what each is called, how it gets into a meeting, and how to stop it",
+  "about": "Every line is taken from the maker's own help pages. A field the maker does not state is left out, not guessed.",
+  "license": "CC BY 4.0 — use it, link to https://meetful.com/notetakers",
+  "updated": "2026-11-11",
+  "notetakers": [
+    {
+      "name": "Otter",
+      "maker": "Otter.ai",
+      "kind": "joins as a participant",
+      "chatCommand": "stop otter",
+      "howToStop": [
+        "On the Otter home page open the Meetings tab, then AI Notetaker settings, and choose Meetings I manually select.",
+        "Or go to account settings → Integrations → Meetings → the Default auto-join settings dropdown, and choose the same thing.",
+        "Reopen your next recurring event in Otter’s calendar. If you manually turned on Notetaker for that event before, switch it off on the event itself. Check the next occurrence as well as the default setting."
+      ],
+      "inACall": [
+        "Type stop otter in the meeting chat. Otter says anybody in the meeting can, even without an Otter account, and every Otter Notetaker in the call leaves at once.",
+        "To keep one Otter Notetaker and remove a different one, ask the host to remove the intended participant by name from the people list. The chat command removes every Otter Notetaker in that call.",
+        "If its owner shares the meeting notes in the chat, the link there also has a Stop Notetaker button."
+      ],
+      "sources": [
+        "https://help.otter.ai/hc/en-us/articles/26010355877911-Choose-which-meetings-Otter-Notetaker-records",
+        "https://help.otter.ai/hc/en-us/articles/12906714508823-Stop-Otter-Notetaker-from-automatically-joining-your-meetings",
+        "https://help.otter.ai/hc/en-us/articles/14288936562199-Remove-Otter-Notetaker-from-your-meeting-Zoom-Google-Meet-or-Microsoft-Teams",
+        "https://help.otter.ai/hc/en-us/articles/360047733414-Delete-a-conversation"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/otter"
+    },
+    {
+      "name": "Fireflies",
+      "maker": "Fireflies.ai",
+      "kind": "joins as a participant",
+      "shownAs": "Fireflies Notetaker",
+      "calendarGuest": "fred@fireflies.ai",
+      "chatCommand": "/ff leave",
+      "howToStop": [
+        "For one call, open Upcoming, find the event under Upcoming Meetings and turn it off there. If Fred is also on the calendar guest list, ask the organizer to remove the invite.",
+        "For the account default, go to Settings → Recording & Privacy → Recording and turn Auto-record meetings off. To keep manual invites, use Only when I invite fred@fireflies.ai in Auto-join calendar meetings.",
+        "In Recording & Privacy, check Recording Rules and Restriction Rules against the event’s exact title and guests. Narrow or remove the rule that keeps picking up the meeting. Reopen the next occurrence in Fireflies after the change."
+      ],
+      "inACall": [
+        "Fireflies lists /ff leave as the meeting chat command. Check the participant list after sending it.",
+        "The host can remove it from the list of people: More → Remove in Zoom, the three dots → Remove from the call in Google Meet, the three dots → Remove from meeting in Teams.",
+        "The person who sent it can press the Stop icon on the live meeting banner of their Fireflies dashboard."
+      ],
+      "sources": [
+        "https://guide.fireflies.ai/articles/7098191513",
+        "https://guide.fireflies.ai/articles/8587670572-how-to-disable-the-fireflies-auto-join-settings",
+        "https://guide.fireflies.ai/articles/3115936908-how-to-use-recording-rules-to-record-or-skip-specific-meetings?lang=en"
+      ],
+      "read": "2026-11-10",
+      "page": "https://meetful.com/notetakers/fireflies"
+    },
+    {
+      "name": "Read AI",
+      "maker": "Read AI",
+      "kind": "joins as a participant",
+      "chatCommand": "Read stop · Opt out",
+      "howToStop": [
+        "Go to Account Settings → Meeting Recording → Auto-Join Preferences. Turn off Auto-Join Calendar Events and Auto-Join Unscheduled Meetings if you want both disabled.",
+        "To skip one call, open the Read AI Calendar, find the event and turn Add Read? off at least fifteen minutes before it starts.",
+        "For a repeating call, choose This meeting only or This and all future meetings in this series. If it still arrives, ask other participants to check their own Read accounts."
+      ],
+      "inACall": [
+        "When Read joined as a participant and posted an opt-out link in the chat, use the link. Otherwise type Read stop to stop capture and create a report or Opt out to stop it and delete what it captured.",
+        "The host can remove the Read participant through the meeting’s People or Participants list. If the recording is the concern, check which stop action also deletes it.",
+        "For Google Meet native recording, go to Meeting tools → Add-ons → Read AI. In the panel select the Read AI logo and Stop recording, then Delete recording or Generate report."
+      ],
+      "sources": [
+        "https://support.read.ai/hc/en-us/articles/41296196476051-How-to-Turn-Off-Read-AI",
+        "https://support.read.ai/hc/en-us/articles/7047269196819-How-can-I-change-which-meetings-Read-joins"
+      ],
+      "read": "2026-11-10",
+      "page": "https://meetful.com/notetakers/read-ai"
+    },
+    {
+      "name": "Fathom",
+      "maker": "Fathom",
+      "kind": "joins as a participant",
+      "howToStop": [
+        "In Fathom 3.0, check Auto-capture for the relevant meeting type. Choose Off - capture manually where available if you want to decide each time.",
+        "For one Google Meet call, open that event in the Fathom desktop tray and check the selected mode and fallback. If you want the call to start without capture, check auto-capture too. A different mode can still capture the conversation.",
+        "As the meeting starts, Fathom’s recording controls offer Cancel Recording."
+      ],
+      "inACall": [
+        "For a visible Fathom bot, the host can remove it from the meeting’s participant list. If there is a Fathom capture notice and no Fathom participant, ask the user who started capture to stop it in their app.",
+        "The person running Fathom can press Stop Recording once it is recording."
+      ],
+      "sources": [
+        "https://help.fathom.video/en/articles/5461313",
+        "https://help.fathom.video/en/articles/296064",
+        "https://help.fathom.video/en/articles/449472",
+        "https://help.fathom.video/en/articles/4290753"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/fathom"
+    },
+    {
+      "name": "tl;dv",
+      "maker": "tl;dv",
+      "kind": "joins as a participant",
+      "howToStop": [
+        "Sign in to tl;dv and open Preferences under personal settings. Switch off automatic recording for the meeting types you want to exclude.",
+        "Check a client call and an internal meeting separately before your next calls. If only the client call should be excluded, check the external rule and look for the tl;dv invite on that event.",
+        "For one call, ask the host to refuse tl;dv at the door if it requests admission."
+      ],
+      "inACall": [
+        "If tl;dv has already joined, the host can remove it from the participant list.",
+        "If it shows up on the next event after you change your settings, ask which attendee’s account sent it and have that person check their preferences."
+      ],
+      "sources": [
+        "https://intercom.help/tldv/en/articles/9093792-how-to-stop-tl-dv",
+        "https://intercom.help/tldv/en/articles/8925840-understanding-and-setting-your-preferences"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/tldv"
+    },
+    {
+      "name": "Zoom meeting summary",
+      "maker": "Zoom",
+      "kind": "built into the meeting app",
+      "howToStop": [
+        "For yourself: Zoom Settings → Zoom AI → under Meeting, switch Meeting summary with AI off, or untick Auto-start when meetings start.",
+        "For a whole company: Admin Center → Settings → Zoom AI → under Meeting, the same switch. An admin can lock it so nobody turns it back on.",
+        "For one team: Admin Center → Users → Groups → the group → Edit product settings → Zoom AI."
+      ],
+      "inACall": [
+        "On the desktop app, the host opens Zoom AI in the toolbar and clears Meeting summary. Stop Zoom AI is the broader action that stops all the AI features. Confirm with Stop.",
+        "If you are a guest, ask the host to stop the summary before the sensitive part of the call. Check that it has stopped before continuing."
+      ],
+      "sources": [
+        "https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0057960",
+        "https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0058013"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/zoom-meeting-summary"
+    },
+    {
+      "name": "Google Meet \"Take notes for me\"",
+      "maker": "Google",
+      "kind": "built into the meeting app",
+      "howToStop": [
+        "On the calendar event open Video call options → Meeting records and untick Take notes with Gemini.",
+        "If this is a recurring call, check the next occurrence too. When the host starts notes, the in-call option to turn them on for future instances can already be selected.",
+        "If Host Management is on, ask a host or co-host to stop the notes. Ask the Workspace admin about automatic settings that apply to the whole organization."
+      ],
+      "inACall": [
+        "Press Take notes for me at the top right and stop it. People from the organiser's company can do this at any time unless host controls keep it to hosts.",
+        "A guest from outside the company cannot stop it. Ask the host."
+      ],
+      "sources": [
+        "https://support.google.com/meet/answer/14754931?hl=en&co=GENIE.Platform%3DDesktop"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/google-meet-take-notes"
+    },
+    {
+      "name": "Fellow",
+      "maker": "Fellow",
+      "kind": "joins as a participant",
+      "chatCommand": "/fellow stop",
+      "howToStop": [
+        "In Fellow open User Settings, go to the Note Taker tab and choose Only meetings I manually toggle.",
+        "For one meeting, switch Enable Auto-record or Record & Summarize off on that event. To exclude a recurring one-on-one, open its series settings, choose Automations, and turn auto-record off for the series. Reopen the next occurrence to check it.",
+        "Ask a workspace admin to set recording to Deny in a matching rule if everyone covered by the rule needs the same restriction. Fellow says a deny rule takes priority over a rule that turns recording on."
+      ],
+      "inACall": [
+        "Anybody can type /fellow stop in the meeting chat.",
+        "Its owner clicks the red Rec icon at the top of their Fellow note, then Stop.",
+        "Before it is let in, the host opens the list of people and chooses Deny entry."
+      ],
+      "sources": [
+        "https://help.fellow.ai/en/articles/9011001-auto-record-options-with-fellow-note-taker",
+        "https://help.fellow.ai/en/articles/9294395-deleting-a-meeting-recording"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/fellow"
+    },
+    {
+      "name": "Avoma",
+      "maker": "Avoma",
+      "kind": "joins as a participant",
+      "shownAs": "Avoma Assistant",
+      "calendarGuest": "assistant@avoma.com",
+      "howToStop": [
+        "In Avoma open Upcoming Meetings, choose the meeting, click its recording label and choose Disable Cloud Recording or the equivalent shown for your meeting app.",
+        "Open the actual calendar invite as well and check its guests for assistant@avoma.com. If the series should stay unrecorded, ask the organizer to take the address off future occurrences and check the next event in Avoma."
+      ],
+      "inACall": [
+        "The host finds Avoma Assistant in the list of people and chooses Remove. It goes at once.",
+        "Its owner opens the meeting in Avoma, clicks Recording Now, then Stop Recording Now. It leaves within ten seconds.",
+        "With Avoma's browser extension, its owner can press Stop Recording, or Pause and Resume."
+      ],
+      "sources": [
+        "https://help.avoma.com/remove-avoma-assistant-bot-from-a-meeting",
+        "https://help.avoma.com/how-to-record-meetings-without-calendar-connection"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/avoma"
+    },
+    {
+      "name": "MeetGeek",
+      "maker": "MeetGeek",
+      "kind": "joins as a participant",
+      "shownAs": "its owner's name, then “MeetGeek Notetaker”",
+      "howToStop": [
+        "To skip one call, open Upcoming Meetings in MeetGeek and turn off the recording toggle beside that event.",
+        "For repeat visits, open Settings → General and check Auto-Join. MeetGeek also lets you exclude events by a title keyword, participant email or domain. For a client who has opted out, add their domain and check that the next client call is off while your internal meeting can still record."
+      ],
+      "inACall": [
+        "The host removes it from the list of people: Participants → More → Remove in Zoom; the three dots beside its name → Remove from the call in Google Meet; Participants → the notetaker → Remove in Teams.",
+        "Its owner can press Pause beside the live event in Upcoming Meetings, even if somebody else hosts the call. To bring it back with everyone’s agreement, use Record in the same place."
+      ],
+      "sources": [
+        "https://support.meetgeek.ai/en/articles/6100200-controlling-meetgeek-during-the-call",
+        "https://support.meetgeek.ai/en/articles/16309240-account-preferences"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/meetgeek"
+    },
+    {
+      "name": "Gong",
+      "maker": "Gong",
+      "kind": "joins as a participant",
+      "shownAs": "Gong recorder",
+      "howToStop": [
+        "The Gong user marks the calendar event private, at least two hours before it starts.",
+        "If someone booked the recording in Gong, open Prepare for upcoming meetings → More actions → Cancel recording at least an hour before. Choose just this call or all future events in the series as needed.",
+        "If a cancelled event still shows in Gong, wait for the calendar to sync and check whether another Gong user still has a copy on their calendar. A manually booked recording needs its own cancellation in Gong."
+      ],
+      "inACall": [
+        "The Gong user clicks Stop recording on the call marked ON AIR on their Gong home page.",
+        "The host removes the Gong recorder participant. In Zoom that is the three dots beside its name, then Remove.",
+        "Gong says the people who can stop it are the invited team members, the host, and the company's Gong admins."
+      ],
+      "sources": [
+        "https://help.gong.io/docs/stop-or-cancel-a-recording"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/gong"
+    },
+    {
+      "name": "Zoom AI in Google Meet and Teams calls",
+      "maker": "Zoom",
+      "kind": "joins as a participant",
+      "howToStop": [
+        "For yourself: in Zoom go to Profile → Settings → the Zoom AI tab → Meeting, and switch Allow Zoom AI to join third-party meetings off.",
+        "For a whole company: Admin Center → Settings → Zoom AI → Meetings, the same switch. An admin can lock it so nobody turns it back on.",
+        "For one group of people: Admin Center → Users → Groups, choose the group, Edit product settings, then the Zoom AI tab → Meeting.",
+        "To stop automatic joins while keeping manual invites available, clear Automatically join meetings on my calendar. My Notes is controlled separately."
+      ],
+      "inACall": [
+        "The Google Meet or Teams host can remove the Zoom AI participant in People or Participants.",
+        "If it returns at the next meeting, ask which attendee’s Zoom account invited it. Have that person check the calendar setting in Zoom before the next occurrence."
+      ],
+      "sources": [
+        "https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0080357",
+        "https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0080354"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/zoom-ai-in-other-meetings"
+    },
+    {
+      "name": "Microsoft Teams Copilot",
+      "maker": "Microsoft",
+      "kind": "built into the meeting app",
+      "howToStop": [
+        "The organiser opens the meeting's options and sets Copilot to Off. That also turns off recording and transcription for the meeting.",
+        "For a call that still needs recording or transcription, ask the organizer to review the meeting options with the Teams admin. Turning Copilot fully off also disables those controls.",
+        "A Teams admin can set the default in a meeting policy under Recording & transcription. Check the actual event as well, since the organizer can change a default where their policy permits."
+      ],
+      "inACall": [
+        "If you are a guest, ask the organizer to check the Copilot setting and whether transcription is running before a sensitive discussion.",
+        "If the organizer selected Only during the meeting, ask whether somebody also started transcription. Copilot can answer after the meeting from the portion that was transcribed."
+      ],
+      "sources": [
+        "https://learn.microsoft.com/en-us/microsoftteams/copilot-teams-transcription"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/teams-copilot"
+    },
+    {
+      "name": "Sembly",
+      "maker": "Sembly AI",
+      "kind": "joins as a participant",
+      "howToStop": [
+        "For one meeting: in Sembly, find the meeting and switch Attend off. This works only before the call starts.",
+        "To stop meetings from a connected calendar, open Sembly’s calendar settings and choose Disconnect from the three-dot menu beside that calendar.",
+        "If the event still appears after the list refreshes, open the original calendar invite and check whether Sembly was added as a guest. Ask the organizer to remove that invitation and check the next occurrence if it repeats."
+      ],
+      "inACall": [
+        "Its owner finds the meeting marked Live in Sembly and clicks Stop. Sembly leaves.",
+        "The host removes Sembly from the list of people. Sembly's own page says to untick the box that reports it for abuse first, so the meeting app does not flag it."
+      ],
+      "sources": [
+        "https://help.sembly.ai/en/articles/61-how-to-stop-sembly-from-joining-my-meetings",
+        "https://help.sembly.ai/en/articles/57-how-to-remove-sembly-from-a-call",
+        "https://help.sembly.ai/en/articles/105-delete-a-meeting"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/sembly"
+    },
+    {
+      "name": "Spinach",
+      "maker": "Spinach",
+      "kind": "joins as a participant",
+      "chatCommand": "kick",
+      "howToStop": [
+        "To skip one meeting, open Schedule and turn Spinach off for that event. To remove it from all scheduled meetings, open Auto Record and choose Remove from all meetings.",
+        "If the calendar invite names it as a guest, ask the event organizer to remove it there. For a recurring invite, select this and following events if you want it gone from future calls as well.",
+        "Reopen the next occurrence and ask the Spinach account holder to check the matching event in Schedule. The organizer and the person who added Spinach may be different people."
+      ],
+      "inACall": [
+        "Where Spinach supports meeting chat, send kick as a message on its own. Check that the participant leaves. If you want to pause capture for a topic instead, Spinach documents pause and resume for calls with a paid-plan Spinach host.",
+        "Spinach says its chat commands do not work in Webex. Ask the meeting host to remove it from the participant list there."
+      ],
+      "sources": [
+        "https://help.spinach.ai/en/articles/9034850-remove-spinach-from-meetings",
+        "https://help.spinach.ai/en/articles/7842261-getting-started-with-spinach-ai",
+        "https://help.spinach.ai/en/articles/6143481-faq"
+      ],
+      "read": "2026-11-10",
+      "page": "https://meetful.com/notetakers/spinach"
+    },
+    {
+      "name": "Supernormal",
+      "maker": "Supernormal",
+      "kind": "records on its owner's computer, not in the call",
+      "howToStop": [
+        "Open the Supernormal menu from its desktop icon, choose Preferences, and clear Capture Meetings Automatically.",
+        "Check the change on a short practice call. Join from the computer that runs Supernormal and watch for the desktop countdown. That check tests the device that can actually capture the call."
+      ],
+      "inACall": [
+        "Ask the person running Supernormal to end the active capture from their computer before continuing a private discussion. The desktop app has no participant entry to remove.",
+        "If you used the old Norma controls, check the user’s desktop preferences before the next call. Supernormal says the old bot-based blocking rules no longer apply."
+      ],
+      "sources": [
+        "https://help.supernormal.com/en/articles/13890833-how-and-why-has-supernormal-changed-this-past-year",
+        "https://help.supernormal.com/en/articles/14489157-set-your-capture-preferences",
+        "https://help.supernormal.com/en/articles/9155113-deleting-a-meeting-from-your-account"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/supernormal"
+    },
+    {
+      "name": "Calendly Notetaker",
+      "maker": "Calendly",
+      "kind": "joins as a participant",
+      "chatCommand": "/stop",
+      "howToStop": [
+        "For one meeting: on Calendly's Calendar page, find the meeting and switch Notetaker off with the toggle on its right.",
+        "For all your meetings: Settings → Notetaker, and switch it off.",
+        "For a whole company, an owner or admin opens Settings → Notetaker → Access, chooses No one, then Save changes. For a single call, check the event switch instead so the change applies only to that booking."
+      ],
+      "inACall": [
+        "Type /stop in the meeting chat. Calendly says it will leave and stop recording right away.",
+        "If chat is unavailable in Zoom, the host can open the three-dot menu on Notetaker’s tile and choose Remove."
+      ],
+      "sources": [
+        "https://calendly.com/help/how-to-remove-notetaker-from-meetings",
+        "https://calendly.com/help/how-to-delete-a-notetaker-recap"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/calendly-notetaker"
+    },
+    {
+      "name": "Bubbles",
+      "maker": "Bubbles",
+      "kind": "joins as a participant",
+      "shownAs": "Bubbles Notetaker",
+      "howToStop": [
+        "Log in to Bubbles, open Settings, then Notetaker settings, switch Auto-record meetings off and click Save.",
+        "To keep recording your own meetings, use the host-only option under the same switch. Compare one event you organized with one you were invited to when you check the change.",
+        "Bubbles says a change applies to future meetings only. One that is being recorded now carries on until it is removed."
+      ],
+      "inACall": [
+        "Open the direct message from Bubbles Notetaker in meeting chat and use its removal link. If you cannot find the message, Bubbles says another participant can share their link.",
+        "If in-meeting messages are disabled, ask the host to remove Bubbles Notetaker from the participant list. That stops the recording."
+      ],
+      "sources": [
+        "https://help.usebubbles.com/en/articles/12750430-how-do-i-remove-bubbles-from-a-meeting-that-s-in-progress",
+        "https://help.usebubbles.com/en/articles/12556340-how-to-stop-bubbles-from-automatically-joining-my-meetings"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/bubbles"
+    },
+    {
+      "name": "HubSpot Notetaker",
+      "maker": "HubSpot",
+      "kind": "joins as a participant",
+      "shownAs": "the company's name, then “Notetaker”",
+      "howToStop": [
+        "For all your meetings: in HubSpot open Settings → General → the Calendar tab, untick Notetaker auto-join and click Save.",
+        "For one meeting: open it from Sales → Calendar → Upcoming meetings and switch Invite Notetaker off.",
+        "If the call starts within 30 minutes, ask the host to check the waiting room or participant list too. HubSpot sends the join instruction half an hour before the meeting, so a setting changed just before the call may arrive too late."
+      ],
+      "inACall": [
+        "The host clicks Notetaker in the list of people and chooses Remove.",
+        "If the meeting has a waiting room, the host can refuse it at the door.",
+        "It also leaves by itself a few seconds after everybody else has gone."
+      ],
+      "sources": [
+        "https://knowledge.hubspot.com/meetings-tool/record-and-take-notes-in-meetings-with-meeting-notetaker"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/hubspot-notetaker"
+    },
+    {
+      "name": "Notta",
+      "maker": "Notta",
+      "kind": "joins as a participant",
+      "howToStop": [
+        "For one meeting, open Upcoming events in Notta and switch Auto-join off beside the event.",
+        "For every connected calendar event, open the gear in Upcoming events, go to Settings for Auto-actions, and switch off Automatically record online meetings from calendar events.",
+        "To skip a recurring client call while leaving other meetings eligible, check the title keywords under Auto-join Blacklist. Open Check bot’s scheduled events and verify the actual upcoming event before relying on the rule."
+      ],
+      "inACall": [
+        "Its owner clicks the Stop button (■) at the bottom of Notta's screen to end the transcription early.",
+        "Notta's page does not say how anybody else makes it leave. The host of the call can remove it from the list of people, as with any guest."
+      ],
+      "sources": [
+        "https://support.notta.ai/hc/en-us/articles/16057662392859"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/notta"
+    },
+    {
+      "name": "Webex AI Assistant",
+      "maker": "Cisco",
+      "kind": "built into the meeting app",
+      "howToStop": [
+        "Open the gear in the AI Assistant panel and check Start and stop summary. The host or cohost can keep control or let anyone on the call use it.",
+        "In the same meeting options, choose Save summary and transcript, Save summary only, or Don't save summary and transcript. Check both menus before a call where the group wants a short recap without a saved transcript."
+      ],
+      "inACall": [
+        "The host or a cohost clicks Stop summary in the AI Assistant panel. On a phone: tap AI Assistant, then Stop summary. That ends it for everyone.",
+        "A guest can do the same only if the host chose to let anyone start and stop it. Otherwise, ask the host."
+      ],
+      "sources": [
+        "https://help.webex.com/en-us/article/nyzkuik"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/webex-ai-assistant"
+    },
+    {
+      "name": "Fyxer",
+      "maker": "Fyxer",
+      "kind": "joins as a participant",
+      "chatCommand": "@fyxer stop",
+      "howToStop": [
+        "In Fyxer open Dashboard → Notetaker → Notetaker settings (the gear at the top right). Under Automatically join, choose None.",
+        "Or narrow it rather than stop it. Meetings I'm hosting sends it only to meetings you organised; External meetings only, only when somebody from outside your company is on the invite.",
+        "For one meeting: Notetaker → Upcoming, choose the meeting and switch Notetaker off.",
+        "If the meeting repeats, apply the change to the whole series and check the next occurrence in Upcoming. If another participant uses Fyxer, have them check their copy of the event too."
+      ],
+      "inACall": [
+        "Anybody in the call can type @fyxer stop in meeting chat to stop recording and make it leave.",
+        "For a brief discussion that should stay out of the notes, use @fyxer pause and wait for it to pause. Resume with @fyxer resume when everyone is ready."
+      ],
+      "sources": [
+        "https://support.fyxer.com/article/how-do-i-stop-the-notetaker-from-joining-meetings-automatically"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/fyxer"
+    },
+    {
+      "name": "ClickUp AI Notetaker",
+      "maker": "ClickUp",
+      "kind": "joins as a participant",
+      "howToStop": [
+        "Open the meeting in ClickUp’s Planner or Calendar Glance. For a Personal Notetaker, choose No Notetaker. For a recurring event, check whether you want This event or All events before saving.",
+        "If the event has a Shared or Workspace Notetaker, an invitee can select No Notetaker. This deactivates all Notetakers at that point. An attendee can still add a Personal Notetaker afterwards, so check the event again if that matters for the call."
+      ],
+      "inACall": [
+        "Anybody who is allowed to remove attendees in the meeting app can remove it.",
+        "When it is a shared or company-wide Notetaker, anybody who was invited can switch it off for that meeting from their own ClickUp Planner, with No Notetaker."
+      ],
+      "sources": [
+        "https://help.clickup.com/hc/en-us/articles/28928137493015-Use-AI-Notetaker-to-take-notes-and-record-meetings"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/clickup-ai-notetaker"
+    },
+    {
+      "name": "Grain",
+      "maker": "Grain",
+      "kind": "joins as a participant",
+      "howToStop": [
+        "To stop automatic capture, open My Meetings and clear Auto-capture my meetings. To exclude a category of calls, set that category to Don’t capture.",
+        "For one upcoming event, open the recording dropdown next to that meeting and choose Off. Compare the event’s setting with the one for its category to make sure the change covers the intended call."
+      ],
+      "inACall": [
+        "The host can remove a visible Grain bot from the participant list. If capture is running on a participant’s desktop, ask that person to use Grain’s capture controller to stop it.",
+        "Grain offers a discard choice in the desktop controller. Use that choice if the group agrees that the active desktop capture should be discarded."
+      ],
+      "sources": [
+        "https://support.grain.com/en/articles/9218312-my-meetings",
+        "https://support.grain.com/en/articles/15183477-meetings-page",
+        "https://support.grain.com/en/articles/12022918-desktop-capture"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/grain"
+    },
+    {
+      "name": "monday.com AI Notetaker",
+      "maker": "monday.com",
+      "kind": "joins as a participant",
+      "shownAs": "monday Notetaker",
+      "howToStop": [
+        "For one meeting: on the AI Notetaker page in monday.com, find the meeting under Upcoming and switch it off with the toggle.",
+        "For all your meetings: open Settings at the bottom of the left panel, then Personal preferences, and switch off both of the settings that invite it. After that it comes only when you ask.",
+        "If your change is locked, ask an admin to check Settings → Account settings → Attendance. The account rule can override personal preferences. Use Attendance to change future invitations. The separate Disable AI notetaker account action permanently deletes its saved data."
+      ],
+      "inACall": [
+        "The host can remove the visible monday Notetaker participant in Zoom, Teams or Google Meet to stop its recording.",
+        "If a participant is using desktop capture, ask that person to stop it from their device. Check that it has stopped before continuing."
+      ],
+      "sources": [
+        "https://support.monday.com/hc/en-us/articles/28017248522130-monday-com-AI-Notetaker"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/monday-ai-notetaker"
+    },
+    {
+      "name": "Slack AI huddle notes",
+      "maker": "Slack",
+      "kind": "built into the meeting app",
+      "howToStop": [
+        "On Slack desktop, open the channel, click its name, and choose Settings. Beside AI huddle notes, click Edit and clear the checkbox that starts notes for every huddle in that channel.",
+        "Check the channel you actually use for the next huddle. A recurring team huddle and a direct message can have different startup behavior. If the option is missing, ask the workspace admin whether access is restricted."
+      ],
+      "inACall": [
+        "On a computer: click AI notes: On, then Stop AI notes. That pauses them; Resume AI notes starts them again.",
+        "To throw away what has been taken so far: Delete AI notes, then Delete and cancel.",
+        "On a phone: tap the three dots on the AI notes banner, then Stop Transcription."
+      ],
+      "sources": [
+        "https://slack.com/help/articles/31377193680019"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/slack-huddle-notes"
+    },
+    {
+      "name": "Dialpad AI in meetings",
+      "maker": "Dialpad",
+      "kind": "built into the meeting app",
+      "howToStop": [
+        "To stop it starting by itself, open Settings on the Dialpad Meetings dashboard and clear Automatically start AI for meetings.",
+        "Office admins control whether team members can use it under Office → AI Settings, with Allow AI to be used office-wide.",
+        "Start a practice meeting as the organizer after changing the default. Open Host Controls to confirm the AI setting and check whether meeting recording is also enabled."
+      ],
+      "inACall": [
+        "The host opens Host Controls and chooses Turn off AI.",
+        "If you are a guest, ask the host to check the AI control before a private discussion. Check recording separately if the meeting is also being recorded."
+      ],
+      "sources": [
+        "https://help.dialpad.com/docs/dialpad-meetings-dialpad-ai",
+        "https://help.dialpad.com/hc/en-us/articles/55515169916955-Dialpad-Meetings-Dialpad-AI",
+        "https://help.dialpad.com/hc/en-us/articles/55011148564251-Turn-on-Dialpad-AI-for-Offices-Shared-Lines"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/dialpad-ai"
+    },
+    {
+      "name": "Coworker Recorder",
+      "maker": "Coworker",
+      "kind": "joins as a participant",
+      "chatCommand": "-remove",
+      "howToStop": [
+        "On the Meetings page, open the settings gear and turn off Internal meetings or External meetings according to which calls should stay unrecorded.",
+        "Use the toggle in Upcoming Meetings for a single call. With the workspace’s organizer override enabled, the organizer’s decision to disable that event takes precedence over attendees’ personal settings."
+      ],
+      "inACall": [
+        "Open the chat in Google Meet or Zoom and type -remove. Coworker says that immediately removes the Recorder from the meeting. -x and -kick do the same.",
+        "To stop it for a while without removing it, type -pause. It stops recording and transcribing until somebody types -resume.",
+        "After removing it from a live call, check your next event. Coworker says removal can also switch off automatic joins for future calls of that type."
+      ],
+      "sources": [
+        "https://intercom.help/coworker-ai/en/articles/15484269-controlling-the-notetaker-with-dash-commands",
+        "https://intercom.help/coworker-ai/en/articles/15271345-configuring-recorder-auto-join-settings",
+        "https://intercom.help/coworker-ai/en/articles/15271366-configuring-workspace-level-recorder-settings"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/coworker-recorder"
+    },
+    {
+      "name": "Granola",
+      "maker": "Granola",
+      "kind": "records on its owner's computer, not in the call",
+      "howToStop": [
+        "On desktop, use the stop button at the bottom of the meeting note. Stop between back-to-back calls so the next one starts with a separate note. Granola warns that a call app can leave the microphone active between meetings.",
+        "If the group agrees to restart, open the waveform icon in that note and choose Resume. Granola adds new audio to the same transcript. Open a new note when it is a different meeting.",
+        "For the Zoom app path, a host can pause or stop meeting-content sharing. A Zoom admin can disable Share realtime meeting content with apps for the account."
+      ],
+      "inACall": [
+        "If you see Zoom’s notice, choose View app(s) to see which apps are receiving content. Ask the host to stop sharing if you want the Zoom app to stop.",
+        "If someone is using the desktop app, ask that person to stop it in their note. A host’s Zoom app setting applies to Zoom’s shared feed. The desktop app uses audio from the participant’s computer.",
+        "Before moving into a sensitive topic, ask the note taker to confirm that transcription has stopped. Granola can also notify others in the meeting chat when it starts transcribing."
+      ],
+      "sources": [
+        "https://docs.granola.ai/help-center/taking-notes/transcription",
+        "https://www.granola.ai/blog/why-granola-doesnt-use-a-bot",
+        "https://docs.granola.ai/help-center/consent-security-privacy/in-meeting-notice-zoom"
+      ],
+      "read": "2026-11-10",
+      "page": "https://meetful.com/notetakers/granola"
+    },
+    {
+      "name": "Jamie",
+      "maker": "Jamie",
+      "kind": "records on its owner's computer, not in the call",
+      "howToStop": [
+        "Use the recorder widget to stop. If you expanded Jamie to the full meeting view, use the red Stop button in the bottom recorder bar.",
+        "Its owner can switch on an email that tells everybody invited, before the meeting, that they will be using Jamie. It needs their calendar connected, and it is not sent to people in their own workspace.",
+        "There is also a message Jamie can post in the meeting chat a few seconds after it starts. Jamie describes it as a beta, off unless the owner switches it on, on each computer."
+      ],
+      "inACall": [
+        "There is nothing on screen to remove. If an email before the meeting or a line in the chat says Jamie is being used, that tells you who.",
+        "If nobody says, ask at the start whether anybody is recording or taking notes with an app, and ask them to stop if you do not agree to it.",
+        "Jamie's own guide puts the duty to tell people on the person using it, not on Jamie."
+      ],
+      "sources": [
+        "https://docs.meetjamie.ai/getting-started/recorder.md",
+        "https://docs.meetjamie.ai/getting-started/quickstart.md",
+        "https://docs.meetjamie.ai/getting-started/recording-consent.md",
+        "https://docs.meetjamie.ai/getting-started/meeting-chat-compliance-notice.md",
+        "https://docs.meetjamie.ai/faqs-troubleshooting/data.md",
+        "https://docs.meetjamie.ai/faqs-troubleshooting/account-deletion.md"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/jamie"
+    },
+    {
+      "name": "Krisp",
+      "maker": "Krisp",
+      "kind": "records on its owner's computer, not in the call",
+      "shownAs": "Krisp Bot",
+      "howToStop": [
+        "For desktop capture, switch Note Taker off in Krisp before joining and leave it off for that call.",
+        "Its owner can turn on Notify others you're using Krisp, under Settings → Privacy & Consent. It is their choice, and Krisp itself warns that some meeting apps block the message.",
+        "Check the calendar guest list too. If assistant@krisp.ai was invited to a recurring event, ask the organizer to remove that guest from the intended occurrences. A desktop setting only controls the app on that computer."
+      ],
+      "inACall": [
+        "If Krisp Bot is waiting in the lobby or sitting in the list of people, the host can refuse to admit it, or remove it.",
+        "Otherwise there is nothing on screen to remove. Ask at the start whether anybody is recording or taking notes with an app, and ask them to stop if you do not agree to it.",
+        "A call shorter than thirty seconds is not recorded by Krisp at all."
+      ],
+      "sources": [
+        "https://help.krisp.ai/hc/en-us/articles/30146816045980-Record-your-meetings-with-Krisp-AI-Note-Taker",
+        "https://help.krisp.ai/hc/en-us/articles/12535172635804-Krisp-Bot",
+        "https://help.krisp.ai/hc/en-us/articles/360012035500-What-data-Krisp-sends-to-the-cloud",
+        "https://help.krisp.ai/hc/en-us/articles/12216182124956-FAQ-about-Krisp-Recording-feature"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/krisp"
+    },
+    {
+      "name": "Notion AI Meeting Notes",
+      "maker": "Notion",
+      "kind": "records on its owner's computer, not in the call",
+      "howToStop": [
+        "In the meeting notes block, press Stop. To resume later, open the slider icon on that block and choose Resume transcription.",
+        "A workspace admin can switch it off for the whole company: Settings → Meeting notes, and switch off Enable Meeting notes for workspace.",
+        "Notion tells the person pressing Start that they are confirming everybody has agreed. It offers a consent message to paste in the chat or play aloud."
+      ],
+      "inACall": [
+        "There is nobody to remove: it is not in the list of people. Ask whether anybody is using Notion to take notes.",
+        "If you have not agreed, say so. Notion's own guidance is to get consent from everybody before starting."
+      ],
+      "sources": [
+        "https://www.notion.com/help/ai-meeting-notes"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/notion-ai-meeting-notes"
+    },
+    {
+      "name": "Tactiq",
+      "maker": "Tactiq",
+      "kind": "records on its owner's computer, not in the call",
+      "howToStop": [
+        "In Settings → General, paid users can enable Always ask about transcribing and choose No at the start of a meeting they want to skip.",
+        "Use a practice call to check which control appears. The browser widget and Mac menu are different, and minimizing the widget leaves transcription running."
+      ],
+      "inACall": [
+        "In the browser, click Pause in the Tactiq widget and look for its confirmation. On Mac, open the Tactiq menu and select Pause Transcribing.",
+        "Ask the person whose app is running to confirm the pause before you continue. Resume only if the participants agree."
+      ],
+      "sources": [
+        "https://help.tactiq.io/en/articles/5570498-how-to-pause-transcription-in-tactiq",
+        "https://help.tactiq.io/en/articles/17447226-how-to-install-the-tactiq-mac-app-for-zoom-slack-and-microsoft-teams",
+        "https://help.tactiq.io/en/articles/5510524-how-to-delete-a-transcript-during-a-meeting"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/tactiq"
+    },
+    {
+      "name": "Timeless",
+      "maker": "Timeless",
+      "kind": "joins as a participant",
+      "howToStop": [
+        "In Timeless open Preferences → Virtual Meetings and select I'll add it manually. This changes what your account sends to future calls. It still lets you add the notetaker yourself when everyone expects it.",
+        "If your team normally uses Timeless and this one call is an exception, ask the colleague who sends it to check the meeting in their Timeless calendar. Agree on who will handle the notetaker before the meeting opens, especially when the person hosting the call and the Timeless account holder are different people."
+      ],
+      "inACall": [
+        "The host can remove the notetaker from the participant list. A guest can ask the host or the Timeless user who added it.",
+        "For the Timeless user, open the meeting from its calendar view and click the Spark symbol, or go to its meeting space and choose Remove from this call. Check the participant list before moving on to the discussion."
+      ],
+      "sources": [
+        "https://intercom.help/magicalhq/en/articles/9154027-how-can-i-stop-the-bot-from-joining-my-meetings",
+        "https://intercom.help/magicalhq/en/articles/7900398-how-to-remove-ai-notetaker-after-meeting-has-started"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/timeless"
+    },
+    {
+      "name": "Wudpecker",
+      "maker": "Wudpecker",
+      "kind": "joins as a participant",
+      "howToStop": [
+        "In Settings → Notetaker default joining rules, choose None. On the Plus and Pro plans, this keeps the bot out unless a user deliberately sends it.",
+        "If you still want notes for client calls but need a private portion of one call, agree before joining whether the person is using the calendar bot or their desktop app. That determines who can stop the capture during the call."
+      ],
+      "inACall": [
+        "For the bot, have the host remove it from the call through Participants in Zoom or Teams, or People in Google Meet.",
+        "For desktop recording, ask the Wudpecker user to pause it from their own app before you begin the sensitive topic. Ask them to confirm the pause and agree when to resume."
+      ],
+      "sources": [
+        "https://intercom.help/wudpecker/en/articles/8560614-how-can-i-stop-the-notetaker-from-joining-meetings-automatically",
+        "https://www.wudpecker.io/windows-app"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/wudpecker"
+    },
+    {
+      "name": "Circleback",
+      "maker": "Circleback",
+      "kind": "joins as a participant",
+      "howToStop": [
+        "In Settings → Calendar → Joining preferences, switch off Internal and External to disable automatic bot joins. A personal email account shows All meetings for the internal option.",
+        "Keep your normal settings and toggle a single upcoming meeting off from Home. If you also use the desktop app, check Settings → Notifications for Detect meetings and Start recording automatically."
+      ],
+      "inACall": [
+        "If the participant is waiting, the host can leave it in the lobby. If it has joined, the host can remove it through the participant list.",
+        "For a call that must stay unrecorded, ask the Circleback user to click Don't Record on any desktop countdown and check that they have no recording running before the conversation continues."
+      ],
+      "sources": [
+        "https://circleback.ai/docs/support/account-and-setup/meeting-joining-preferences",
+        "https://circleback.ai/docs/support/recording/desktop-app/record-meetings-with-the-desktop-app"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/circleback"
+    },
+    {
+      "name": "Claap",
+      "maker": "Claap",
+      "kind": "joins as a participant",
+      "shownAs": "its owner's name, then “Claap Recorder”",
+      "howToStop": [
+        "Open Settings from the workspace name, then Meeting preferences → Automation preferences. Choose None under Auto-record the following meetings in my calendar to switch off automatic calendar bot joins.",
+        "For a customer call that should stay off the record, ask the teammate who uses Claap to check their desktop app as well. It has a Record control in the top right that can start capture on demand."
+      ],
+      "inACall": [
+        "If you see Claap Recorder waiting, keep it in the lobby. Claap says a bot recording is only created if it gets in. If it was already admitted, the host can remove it through the participant list.",
+        "Ask the desktop app user to stop any active capture from their computer. The host's participant controls apply to the visible bot."
+      ],
+      "sources": [
+        "https://help.claap.io/en/articles/10502268-using-the-claap-bot-recorder",
+        "https://help.claap.io/en/articles/15588746-getting-started-with-the-claap-desktop-app"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/claap"
+    },
+    {
+      "name": "Coffee",
+      "maker": "Coffee",
+      "kind": "joins as a participant",
+      "howToStop": [
+        "To stop the Coffee bot across your calendar, click the gear → Call Recorder → Which meetings should be recorded? and choose Record no meetings.",
+        "For one meeting, go to Today and uncheck Record beside the event. If colleagues normally use the desktop app or a CRM recorder, ask them to confirm which recorder should be off for that event."
+      ],
+      "inACall": [
+        "The Coffee user can turn off the Recording toggle on Today for a live bot session. The host can also remove the bot from the meeting. In Google Meet use Show everyone → More actions → Remove from the call.",
+        "For a desktop session, ask the Coffee user to stop it in the app. A third-party recorder has its own controls."
+      ],
+      "sources": [
+        "https://help.coffee.ai/en/articles/11994131-removing-the-recording-bot-from-meetings",
+        "https://help.coffee.ai/en/articles/13576090-ways-to-record-meetings-using-coffee"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/coffee"
+    },
+    {
+      "name": "Sybill",
+      "maker": "Sybill",
+      "kind": "joins as a participant",
+      "howToStop": [
+        "For one upcoming call, open Meetings and switch off Record in the Meeting Recording panel. Ask the other Sybill users on the invitation to check the same event.",
+        "Set Recording Preferences to None to stop automatic capture from your calendar. For sensitive recurring calls, add the relevant participant domain, address or event keyword to the Block List under My Meetings.",
+        "If your team must use only the visible bot, disable Invisible Recorder in Recorder Priority, or have an admin enforce that choice from Company Meetings."
+      ],
+      "inACall": [
+        "If the bot is in the participant list, ask the host to remove it. If a teammate has desktop capture enabled, ask them to check whether the Invisible Recorder is active before the private discussion begins.",
+        "For a sensitive call, make that check with the Sybill user before continuing when the bot has been declined in the lobby. The calendar record switch and recorder priority are separate controls."
+      ],
+      "sources": [
+        "https://help.sybill.ai/en/articles/9314194-call-recording-settings",
+        "https://help.sybill.ai/en/articles/6137354-how-can-i-change-the-recording-preferences-on-sybill"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/sybill"
+    },
+    {
+      "name": "Noota",
+      "maker": "Noota",
+      "kind": "joins as a participant",
+      "howToStop": [
+        "For automatic bot joining, click your name → Settings → General Settings → Meeting Assistant and set Join meetings automatically to No.",
+        "To keep the usual bot behavior but skip a single appointment, turn off the switch beside that event in the dashboard's Calendar section. Check the separate desktop auto-record setting if your teammate also uses the app."
+      ],
+      "inACall": [
+        "If the bot has already joined, ask the host to remove it from the participant list. For desktop capture, ask the app user to choose Pause in the widget for a temporary break or Stop to end that recording.",
+        "For a private segment, agree who is operating the widget and confirm the pause before discussing it."
+      ],
+      "sources": [
+        "https://support.noota.io/en/articles/8564886-how-to-disable-the-bot-from-joining-all-meetings",
+        "https://support.noota.io/en/articles/8564890-how-to-prevent-the-bot-from-joining-a-specific-meeting",
+        "https://support.noota.io/en/articles/12840682-desktop-app"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/noota"
+    },
+    {
+      "name": "Metaview",
+      "maker": "Metaview",
+      "kind": "joins as a participant",
+      "shownAs": "the inviting company's name, then “Metaview Notetaker”",
+      "howToStop": [
+        "On the Metaview home page, find the event in My Conversations → Upcoming Conversations. Open the three-dot menu and select Don't capture. Check for the Won’t join tag.",
+        "An admin can do this for another interviewer from All Conversations. To disable automatic scheduling more broadly, use the Capturing Calls toggle on the appropriate profile in Team Management."
+      ],
+      "inACall": [
+        "If it is already on the call, the host can remove it from the participant list. An interviewer or admin can also use Remove bot on the ongoing call in Metaview.",
+        "If you are the candidate, tell the interviewer before starting your answers. They can confirm the event status before the call or verify that the participant has actually left."
+      ],
+      "sources": [
+        "https://support.metaview.ai/notes/during-calls/overview",
+        "https://support.metaview.ai/notes/capturing-calls/disabling-capture"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/metaview"
+    },
+    {
+      "name": "Clovers",
+      "maker": "Clovers",
+      "kind": "joins as a participant",
+      "howToStop": [
+        "Reply to the recruiter with the interview date and ask them to confirm whether audio, video or a transcript will be captured.",
+        "If you would prefer an interview without recording, ask the recruiter to confirm that before you join. If you have a panel, ask them to pass the request to the person hosting each part."
+      ],
+      "inACall": [
+        "If you see an unfamiliar participant, ask the interviewer who invited it and what it captures. If the hiring team identifies it as a recorder, ask the host to remove that participant from Teams or Zoom before you begin.",
+        "The Clovers removal instructions could not be verified. Ask the host directly which controls they can use on that call."
+      ],
+      "sources": [
+        "https://marketplace.microsoft.com/en-us/product/wa200003795"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/clovers"
+    },
+    {
+      "name": "Leexi",
+      "maker": "Leexi",
+      "kind": "joins as a participant",
+      "howToStop": [
+        "In Leexi's settings choose which kinds of meeting the assistant joins. For a one-off exception, find the upcoming call on Leexi's home page and switch recording off for that event.",
+        "On a joint call, ask both companies to check their own events if they both use Leexi. Each sends a separate assistant, and turning yours off leaves the other company's settings in place."
+      ],
+      "inACall": [
+        "If two assistants arrive with similar names, ask who sent each one before admitting either. Each records for its own company. The host can decline them in the lobby or remove them from the participant list.",
+        "In Google Meet, anyone can send /pause and look for the recording paused reply. Use /resume to restart when everyone is ready.",
+        "In Teams, use Pause in the Leexi Teams app. The /pause message points to that button. On Zoom, the Leexi user pauses in Leexi because the assistant cannot read the meeting chat."
+      ],
+      "sources": [
+        "https://docs.leexi.ai/en/guides/getting-started/faq",
+        "https://docs.leexi.ai/en/guides/getting-started/how-leexi-assistant-works",
+        "https://docs.leexi.ai/en/references/assistant-behaviour/chat-commands"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/leexi"
+    },
+    {
+      "name": "Jiminny",
+      "maker": "Jiminny",
+      "kind": "records on its owner's computer, not in the call",
+      "howToStop": [
+        "To leave out a short segment, the person running Jiminny can pause the desktop app. The resulting video contains a black, silent stretch for that interval.",
+        "To stop the recording completely, the person running it can quit the app. In a rehearsal, check that everyone knows who is operating it before trying the pause and stop controls.",
+        "If your company manages Jiminny, ask its administrator which recording, consent and compliance settings apply on customer-hosted calls too."
+      ],
+      "inACall": [
+        "Ask the Jiminny user directly if the desktop app is recording. The participant list has no desktop recorder to remove, and notices depend on the company's settings.",
+        "Before discussing material that should stay private, ask the user to confirm the pause or stop and agree who will restart recording if the call returns to its ordinary agenda."
+      ],
+      "sources": [
+        "https://intercom.help/jiminny/en/articles/15373740-invisible-recording-with-the-jiminny-desktop-app"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/jiminny"
+    },
+    {
+      "name": "Attio call recorder",
+      "maker": "Attio",
+      "kind": "joins as a participant",
+      "chatCommand": "@Attio leave · /bot leave",
+      "howToStop": [
+        "To turn off automatic requests from your own calendar, use Account settings. A colleague attending the same call can still bring the recorder with their own settings.",
+        "For one sensitive meeting with several colleagues, open View emails and meetings from the relevant person or company record. Find the event and set it to Recording off. The override shows who applied it and takes precedence over participants' automatic settings.",
+        "For all meetings in a workspace, an administrator can disable the call recorder in Workspace settings."
+      ],
+      "inACall": [
+        "It cannot record until somebody lets it in. Leave it in the waiting room or deny it; after ten minutes it leaves by itself.",
+        "Once it is in, type @Attio leave or /bot leave in the meeting chat — Attio also accepts “Please leave the call Attio” and “Remove the note taker”. This works on Zoom, Google Meet and Teams, but only after it has been admitted.",
+        "The host can also remove it from the list of people. Attio says everybody in the call can see it is being recorded."
+      ],
+      "sources": [
+        "https://attio.com/help/reference/productivity-collaborating/call-intelligence/set-up-and-manage-call-recording",
+        "https://attio.com/help/reference/productivity-collaborating/call-intelligence/recording-calls-with-attio"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/attio"
+    },
+    {
+      "name": "Modjo",
+      "maker": "Modjo",
+      "kind": "joins as a participant",
+      "shownAs": "Modjo Assistant (the company can rename it)",
+      "howToStop": [
+        "For a single event, open the meeting in the Modjo calendar and choose Cancel scheduled recording.",
+        "If the customer call is rebooked with a new invite, open the new event in the Modjo calendar and check its recording setting before joining. Apply the same cancellation there if it is scheduled.",
+        "To change defaults for Google Meet or Teams, a Modjo manager or admin opens Settings → Integrations → the platform → Options. Choose Never record automatically or restrict automatic recording to meetings organized by a licensed user."
+      ],
+      "inACall": [
+        "When it tries to join, a message says it is there to record. Decline it and it leaves without recording; if nobody admits it within ten minutes it leaves by itself.",
+        "Once it is in, Modjo says only the meeting's organiser can remove it — remove Modjo Assistant from the list of people. A removed bot does not come back by itself.",
+        "During the call it shows the message “[first name] is recording this call for note-taking purposes”."
+      ],
+      "sources": [
+        "https://help.modjo.ai/en/articles/9776558-modjo-recorder"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/modjo"
+    },
+    {
+      "name": "Attention",
+      "maker": "Attention",
+      "kind": "joins as a participant",
+      "howToStop": [
+        "To skip a calendar event, open Home and uncheck Join for that event. For an entire customer domain, an admin can use Blocked domains to block automatic joins; a user can still invite the bot manually.",
+        "If a second entry in Google Meet has the same name as a teammate and a companion device icon, ask the teammate to check High-quality meeting capture. Standard desktop capture does not add that entry."
+      ],
+      "inACall": [
+        "For the named bot, the meeting host can remove it as a participant. Its owner can also use Home → Ongoing Calls → Remove bot from call.",
+        "If the person uses desktop recording, ask them to check the app and stop any active capture. If their setup allows parallel recording, confirm both controls before continuing."
+      ],
+      "sources": [
+        "https://docs.attention.com/core-features/get-attention-into-calls",
+        "https://docs.attention.com/core-features/desktop-app"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/attention"
+    },
+    {
+      "name": "Vitally Meeting Recorder",
+      "maker": "Vitally",
+      "kind": "joins as a participant",
+      "howToStop": [
+        "An administrator can make Manual the default so users choose whether to record each meeting.",
+        "For a weekly customer call, review the recording switch on the next occurrence in Vitally. Each upcoming occurrence gets its own recorder, so check the specific dates that should stay unrecorded.",
+        "If no call with that customer should be captured, ask the administrator to add the Account or Organization to the never-record list under Settings → Vitally Objects → Meetings → Meeting Recorder."
+      ],
+      "inACall": [
+        "Vitally says the host can remove it during the call, which ends the recording.",
+        "Otherwise it stays: for the first fifteen minutes after it starts recording it does not leave, even if everyone else has gone. After that it leaves once the call is empty.",
+        "Vitally relies on the meeting app's own recording notice to tell people it is recording."
+      ],
+      "sources": [
+        "https://docs.vitally.io/en/articles/12089240-vitally-ai-meeting-recorder",
+        "https://docs.vitally.io/en/articles/10006959-meetings"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/vitally"
+    },
+    {
+      "name": "Jump",
+      "maker": "Jump",
+      "kind": "joins as a participant",
+      "howToStop": [
+        "When your firm lets users choose, turn the notetaker off on the specific calendar event. To change your own default in Jump, open Profile & settings → User settings → Preferences → Calendars and switch off Automatically add notetaker to upcoming meetings.",
+        "If the choice is controlled by your firm, an account owner can review Compliance → Notetaker settings → Set Notetaker attendance. The manual policy still allows a user to turn it on for one meeting or paste a meeting link.",
+        "If you are the client, give the adviser the date and ask them to confirm which setting applies before that call."
+      ],
+      "inACall": [
+        "The adviser can remove it during the meeting with the red x in Jump's live notetaker control, at the top right of the Jump screen. Its grey pause button stops it capturing without removing it.",
+        "As with any guest, the host of the meeting can also remove it from the list of people.",
+        "If it joins after the meeting has started, it captures nothing from before it arrived."
+      ],
+      "sources": [
+        "https://help.jumpapp.com/en/articles/9959411-how-to-disable-the-notetaker",
+        "https://help.jumpapp.com/en/articles/11832214-how-to-control-when-the-notetaker-enters-your-meetings",
+        "https://help.jumpapp.com/en/articles/17711321-how-to-configure-notetaker-settings-for-your-firm"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/jump"
+    },
+    {
+      "name": "BrightHire",
+      "maker": "BrightHire",
+      "kind": "joins as a participant",
+      "shownAs": "BrightHire Notetaker",
+      "howToStop": [
+        "Open the candidate email or calendar invitation and look for BrightHire's opt-out link. If you have several interview invitations, ask the recruiter to confirm which sessions are affected before the first call.",
+        "If the link is missing, tell the recruiter directly that you would like the interview to proceed without recording. BrightHire tells candidates that opting out has no effect on their candidacy."
+      ],
+      "inACall": [
+        "You can say at any time that you would rather not be recorded. Any interviewer can then stop it — on Zoom by removing the BrightHire participant.",
+        "Stopping deletes the whole recording and transcript, not only what comes after. It cannot be restarted for that call; an interviewer can instead put it in the waiting room to pause it and admit it again later.",
+        "In the meeting it shows a “Recording” label on its own tile, and posts in the chat that the interview is being recorded."
+      ],
+      "sources": [
+        "https://help.brighthire.ai/en/articles/4128677-recording-disclosure-and-consent",
+        "https://help.brighthire.ai/en/articles/4484370-brighthire-for-candidates-faq",
+        "https://help.brighthire.ai/en/articles/3710359-how-to-stop-recording"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/brighthire"
+    },
+    {
+      "name": "Ashby AI Notetaker",
+      "maker": "Ashby",
+      "kind": "joins as a participant",
+      "howToStop": [
+        "If you are the candidate, open the recording disclosure link in the calendar invite and select Opt Out. Ashby turns off its notetaker for the candidate's scheduled and future interviews. The same link lets the candidate opt back in.",
+        "If you are scheduling, open Configure Communications → AI Notetaker for that interview and switch it off. Check the message on that tab for a candidate opt-out before sending the invite."
+      ],
+      "inACall": [
+        "The host can remove the AI Notetaker from the meeting, or an interviewer can open the Recording tab on the Ashby interview briefing and click Stop Recording.",
+        "In a panel with multiple interviews on the same link, check that the next notetaker is admitted. Ashby says the previous recorder keeps capturing if the next one has not joined. For separate recordings, schedule using One invite per interview event."
+      ],
+      "sources": [
+        "https://docs.ashbyhq.com/ai-notetaker-faqs",
+        "https://docs.ashbyhq.com/ai-notetaker-recording-consent-management",
+        "https://docs.ashbyhq.com/scheduling-and-conducting-interviews-with-ai-notetaker"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/ashby-ai-notetaker"
+    },
+    {
+      "name": "Greenhouse Notetaker",
+      "maker": "Greenhouse",
+      "kind": "joins as a participant",
+      "shownAs": "Greenhouse Notetaker, then the interview's start time",
+      "howToStop": [
+        "Withdraw your consent. Greenhouse sends candidates a link to a consent page that stays open until the application is closed; change your answer there, or tell the recruiter.",
+        "Once consent is withdrawn, Greenhouse takes the notetaker off the interview automatically, and it does not join.",
+        "A recruiter can also remove it from an interview any time before it starts."
+      ],
+      "inACall": [
+        "Open the interview scorecard and choose Pause recording in the header or above Interview Questions. Check that the status changes to paused, then use Resume recording when the conversation can be captured again.",
+        "For the rest of the call, use Stop recording from the same scorecard controls. A candidate can ask the interviewer to do this before answering.",
+        "If rescheduling while the interview is in progress or within ten minutes of its scheduled end, read the Greenhouse warning. That change removes the material collected for that interview."
+      ],
+      "sources": [
+        "https://support.greenhouse.io/hc/en-us/articles/50523570982939"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/greenhouse-notetaker"
+    },
+    {
+      "name": "Dover AI Notetaker",
+      "maker": "Dover",
+      "kind": "joins as a participant",
+      "shownAs": "Dover Notetaker",
+      "howToStop": [
+        "Dover recommends telling the candidate before admitting the notetaker. If the candidate asks to skip recording, check the event's access type before sending them the link.",
+        "With a waiting room, the host can decline Dover's entry request. With open Google Meet access the bot can already be in the room when you arrive, so make the recorder check before beginning the interview."
+      ],
+      "inACall": [
+        "The host can refuse to admit Dover Notetaker, or remove it from the meeting at any time.",
+        "On an open Google Meet it may already be inside; ask the interviewer to remove it if you do not agree."
+      ],
+      "sources": [
+        "https://help.dover.com/en/articles/9044463-dover-ai-notetaker"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/dover"
+    },
+    {
+      "name": "Kula AI Notetaker",
+      "maker": "Kula",
+      "kind": "joins as a participant",
+      "howToStop": [
+        "Reply to the recruiter with the time and role and ask them to turn off Notetaker for that interview. Kula directs the recruiter to handle the change on the event.",
+        "Check the invitation again if the recruiter sends a replacement link. Tell the interviewer at the start that you asked for no recording so they can verify the specific event before you answer."
+      ],
+      "inACall": [
+        "Kula posts a message in chat when the bot enters and again when someone joins later. On Google Meet and Microsoft Teams it also plays a short spoken announcement when recording actually starts.",
+        "If you hear that announcement after asking to skip recording, pause your answers and ask the recruiter or interviewer to remove the notetaker. Ask what was captured between the announcement and removal."
+      ],
+      "sources": [
+        "https://support.kula.ai/articles/4213396602-telling-candidates-the-interview-is-being-recorded"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/kula"
+    },
+    {
+      "name": "GReminders Notetaker",
+      "maker": "GReminders",
+      "kind": "joins as a participant",
+      "howToStop": [
+        "From My Events, open the upcoming appointment and turn off its Notetaker switch. If two advisers from the same firm are attending, GReminders applies that change to the other internal participants with the same setting.",
+        "To change what happens on future calls, review Notetaker → Settings. Use the event switch to exclude a one-off review without changing how the firm handles its other client calls.",
+        "If the meeting was moved to another date, ask the adviser to verify the switch on the rescheduled calendar event."
+      ],
+      "inACall": [
+        "If the meeting has a waiting room and nobody lets it in, it waits up to ten minutes after the start and then leaves.",
+        "Once it is in, the host can remove it from the list of people, like any guest."
+      ],
+      "sources": [
+        "https://www.greminders.com/articles/?p=10601"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/greminders"
+    },
+    {
+      "name": "Google Meet transcripts",
+      "maker": "Google",
+      "kind": "built into the meeting app",
+      "howToStop": [
+        "On a computer, open Meeting tools → Transcribing → Stop transcription, then confirm with Stop.",
+        "To leave one discussion out, stop the current transcript before speaking and start a new transcript afterward. Google saves separate transcript files. Check the Transcripts indicator when stopping and restarting.",
+        "With Quick Stop enabled and host controls off, an internal participant can stop the capture for everyone. Ask the host or co-host if you are attending from outside the organizer's organization."
+      ],
+      "inACall": [
+        "Look for the Transcripts icon at the top right: Google shows it to everybody while the meeting is being transcribed.",
+        "A guest from outside the company cannot stop it. Ask the host to, or to leave out anything you do not want written down.",
+        "It stops by itself when everybody has left."
+      ],
+      "sources": [
+        "https://support.google.com/meet/answer/12849897?hl=en"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/google-meet-transcripts"
+    },
+    {
+      "name": "Google Meet recording",
+      "maker": "Google",
+      "kind": "built into the meeting app",
+      "howToStop": [
+        "On a computer, open Meeting tools → Recording → Stop recording, then confirm in the dialog. On Android, open Tools, tap Record, then Stop.",
+        "If the host set up recording to start automatically, check the recording notice as soon as you enter. If your admin enabled Quick Stop and host controls are off, someone in the organizer's organization can stop capture for everyone."
+      ],
+      "inACall": [
+        "Google shows a notification to everyone when recording starts or stops. If you need to speak privately, ask the host to stop and wait for that notice before continuing.",
+        "Stopping video recording is a separate action from stopping transcription. Ask the host to check both indicators if you need both off.",
+        "The recording stops when everyone leaves or after eight hours of recording."
+      ],
+      "sources": [
+        "https://support.google.com/meet/answer/9308681?hl=en",
+        "https://support.google.com/meet/answer/9308681?co=GENIE.Platform%3DAndroid&hl=en"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/google-meet-recording"
+    },
+    {
+      "name": "Teams Facilitator",
+      "maker": "Microsoft",
+      "kind": "built into the meeting app",
+      "howToStop": [
+        "When scheduling a call, review the Facilitator option and leave it off for a meeting that should run without automated notes.",
+        "During a scheduled meeting, an organizer or presenter using Teams on the web or desktop can turn Facilitator off. Have them confirm the change before a discussion you want excluded from the notes.",
+        "When a guest asks for the notes to stop, have one of the presenters handle it. External attendees cannot see the live updates that internal participants see in Chat and Notes."
+      ],
+      "inACall": [
+        "Everybody in the meeting except people from outside the organiser's company can see its notes and chat updates as they happen.",
+        "If you are a guest, you cannot turn it off. Ask an organiser or presenter to, before you say anything you do not want in the notes.",
+        "When people from outside the company are present, it can also watch for spoken phishing attempts and warn the meeting."
+      ],
+      "sources": [
+        "https://support.microsoft.com/en-US/teams/copilot/facilitator-in-microsoft-teams-meetings"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/teams-facilitator"
+    },
+    {
+      "name": "Teams recording and transcription",
+      "maker": "Microsoft",
+      "kind": "built into the meeting app",
+      "howToStop": [
+        "Open More actions in the meeting controls. Choose Recording to stop video and live transcription together, or choose Transcribing to stop only the live transcript.",
+        "If recording continues after the person who started it leaves, ask the organizer or someone eligible in their organization to stop it. A separate compliance policy can apply to an attendee even if they are from another organization."
+      ],
+      "inACall": [
+        "Teams notifies everybody automatically when a recording starts.",
+        "If you are a guest, ask the organiser or somebody from their company to stop it.",
+        "It keeps going if the person who started it leaves. It stops when everybody has left; if somebody forgets to leave, it ends and restarts every four hours until they do."
+      ],
+      "sources": [
+        "https://support.microsoft.com/en-us/teams/meetings/start-stop-and-find-meeting-recordings-in-microsoft-teams"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/teams-recording"
+    },
+    {
+      "name": "Outreach Kaia",
+      "maker": "Outreach",
+      "kind": "joins as a participant",
+      "shownAs": "Kaia (the company can rename it on Zoom and Teams)",
+      "howToStop": [
+        "Ask the Outreach user whether the company uses Kaia’s consent page. When it does, the invite link is replaced with a Kaia link. The original meeting link gives you a way to recognize when that wrapping has not happened.",
+        "For an active Kaia session, the Outreach user can open the Kaia controls and choose Stop recording. On Zoom, the host can also pause or stop Zoom’s cloud recording, which controls whether Kaia captures."
+      ],
+      "inACall": [
+        "Remove Kaia from the list of people, as with any guest. Outreach says that once removed it is not allowed back into that meeting, on Zoom or Teams.",
+        "On Zoom, stopping or pausing Zoom's own cloud recording stops or pauses Kaia too, though its tile stays in the call.",
+        "On Zoom, somebody who does not accept the recording consent can still join, but with their sound and video off and without being recorded."
+      ],
+      "sources": [
+        "https://support.outreach.io/support/solutions/articles/159000425930-customizing-the-kaia-bot-name",
+        "https://support.outreach.io/support/solutions/articles/159000425860-how-to-remove-and-re-add-kaia-to-a-meeting",
+        "https://support.outreach.io/support/solutions/articles/159000434653-how-kaia-auto-join-mechanism-works-",
+        "https://support.outreach.io/support/solutions/articles/159000426122"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/outreach-kaia"
+    },
+    {
+      "name": "BuildBetter",
+      "maker": "BuildBetter",
+      "kind": "joins as a participant",
+      "shownAs": "BuildBetter, or a name the company chose",
+      "howToStop": [
+        "On BuildBetter’s Home page, find the meeting card and turn off Record call. For a recurring meeting, check whether the prompt applies your change to the current occurrence or every future occurrence.",
+        "For a repeated rule across different calendar events, an admin can open Settings → Organization → Bot Recording Rules and match an attendee’s email, the event title or its description.",
+        "For a call where the team also uses BuildBetter on desktop, ask the app operator to confirm that they have not started local capture."
+      ],
+      "inACall": [
+        "Its user opens the call in BuildBetter and presses Stop Recording. The bot stops and leaves the meeting straight away.",
+        "Anybody hosting the meeting can also remove it from the list of people, like any guest.",
+        "If it is recording from somebody's desktop app instead, there is nothing to remove. Ask whether anybody is recording, and ask them to stop if you do not agree to it."
+      ],
+      "sources": [
+        "https://docs.buildbetter.ai/pages/Calls%20%26%20Recordings/recording-methods.md",
+        "https://docs.buildbetter.ai/pages/Calls%20%26%20Recordings/managing-upcoming-calls.md",
+        "https://docs.buildbetter.ai/pages/Calls%20%26%20Recordings/bot-recording-rules.md"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/buildbetter"
+    },
+    {
+      "name": "Bluedot",
+      "maker": "Bluedot",
+      "kind": "records on its owner's computer, not in the call",
+      "shownAs": "[owner's name]'s AI NoteTaker, when it sends its bot",
+      "howToStop": [
+        "For recording from a computer, ask the owner to check auto-record in both the browser extension and desktop app they use.",
+        "For a visible bot, open Automation → Meeting Bot and review which calendar meetings it joins. Turn off Record all your meetings if all automatic joins should stop.",
+        "If your team relies on the notice in meeting chat, have the workspace owner review the enforced consent message. A person’s own extension notification choice may differ from the workspace setting."
+      ],
+      "inACall": [
+        "If [name]'s AI NoteTaker is waiting to be admitted, the host can simply not let it in. If it is already in, the host can remove it from the list of people.",
+        "If it is recording from somebody's extension, there is nothing on screen to remove, and the notice may be switched off. Ask at the start whether anybody is recording, and ask them to stop if you do not agree to it.",
+        "Bluedot itself recommends telling people before recording, even with the notice switched off."
+      ],
+      "sources": [
+        "https://help.bluedothq.com/en/articles/11407172-how-to-record-meetings-with-a-bot",
+        "https://help.bluedothq.com/en/articles/15081519-how-to-automatically-record-google-meet-browser-extension-desktop-app",
+        "https://help.bluedothq.com/en/articles/11401489-how-to-turn-off-the-recording-notification-browser-extension-desktop-app",
+        "https://help.bluedothq.com/en/articles/12818984-how-to-change-your-bot-s-name-and-image"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/bluedot"
+    },
+    {
+      "name": "Pipedrive Nova AI Notetaker",
+      "maker": "Pipedrive",
+      "kind": "joins as a participant",
+      "howToStop": [
+        "In Settings → Meeting Notetaker → Choose how it joins, choose Manually invite notetaker to stop automatic calendar joins.",
+        "Before a meeting with a new customer, check Participant notice. Pipedrive offers an advance email option with a way for attendees to opt out.",
+        "When someone opts out, check whether the salesperson plans to use the visible Nova bot or the Nova Companion desktop app so the appropriate recording path stays off."
+      ],
+      "inACall": [
+        "Ask the host to remove the visible AI Notetaker from the participant list if the call should stop being transcribed.",
+        "If the salesperson is using Nova Companion, ask them to use its stop button. The desktop recorder is controlled from the user’s own computer."
+      ],
+      "sources": [
+        "https://support.pipedrive.com/en/article/nova-meetings",
+        "https://support.pipedrive.com/en/article/nova-companion"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/pipedrive-nova"
+    },
+    {
+      "name": "meetergo notetaker",
+      "maker": "meetergo",
+      "kind": "joins as a participant",
+      "chatCommand": "/stop",
+      "howToStop": [
+        "Its user switches off Record my meetings under AI Notes → Settings, or switches it off for one meeting.",
+        "meetergo announces a recorded meeting in advance — on the booking page, in confirmation emails and in the calendar invitation — so you may know before the call."
+      ],
+      "inACall": [
+        "To leave one part out, the meetergo user can choose Pause, then resume when the discussion moves on. The recorder stays in the room, and the transcript marks the gap.",
+        "To end the bot recording, send /stop in chat. Wait for the confirmation and check that it left. The chat command ends capture for that meeting.",
+        "In a meetergo Connect meeting, look for the red Recording indicator. That capture has its own controls because there is no bot participant."
+      ],
+      "sources": [
+        "https://help.meetergo.com/en/features/notetaker",
+        "https://help.meetergo.com/en/features/notetaker/"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/meetergo"
+    },
+    {
+      "name": "Zoom recording",
+      "maker": "Zoom",
+      "kind": "built into the meeting app",
+      "howToStop": [
+        "The host or co-host can open Record and choose Pause recording for a short break or Stop recording to finish. For a private discussion, wait until the host confirms the pause before speaking.",
+        "Ask whether this is a cloud recording or one made on a computer. That determines where to find the file afterward. If Zoom asks you for consent, decline before discussing anything you want kept off the recording."
+      ],
+      "inACall": [
+        "When Zoom asks for consent, OK agrees. Cancel or Leave, then Leave Meeting, is how you say no — it takes you out of the meeting.",
+        "If you are already in the meeting when recording starts, you are asked then, without changing your settings.",
+        "Zoom's prompt offers two answers, agree or leave. If you want to stay but not be recorded, that is for the host to arrange — ask them."
+      ],
+      "sources": [
+        "https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0059819",
+        "https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0065164",
+        "https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0062627",
+        "https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0061761"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/zoom-recording"
+    },
+    {
+      "name": "Zoom meeting transcripts",
+      "maker": "Zoom",
+      "kind": "built into the meeting app",
+      "howToStop": [
+        "For a meeting that should have no saved in-meeting transcript, have the host check transcript availability before people begin speaking. A company administrator can set the default for every meeting.",
+        "If the meeting is also being recorded to the cloud, ask the host about automatic audio transcription there. That setting controls a separate transcript made after Zoom processes the recording."
+      ],
+      "inACall": [
+        "Captions on your screen are not the same thing: they are live only, you can scroll back about three minutes, and participants cannot save or download them after the meeting.",
+        "A transcript is the saved record. If you are unsure whether one is being kept, ask the host — they manage it during the meeting, and participants may be able to ask them for access to it."
+      ],
+      "sources": [
+        "https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0085668",
+        "https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0064927"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/zoom-transcripts"
+    },
+    {
+      "name": "ChatGPT Record",
+      "maker": "OpenAI",
+      "kind": "records on its owner's computer, not in the call",
+      "howToStop": [
+        "On the recorder's Mac, select the Stop icon to halt audio capture. From the next screen, choose Resume to continue that same recording or Send to upload the transcript and summary.",
+        "If you want to discard the unsent recording, select X and choose Delete when the app asks. If it has already been sent, check the chat history for the conversation with the transcript and canvas."
+      ],
+      "inACall": [
+        "The person running the ChatGPT Mac app operates these controls. If you are another attendee, ask them to stop and confirm whether they have already selected Send.",
+        "For the Meetings plugin, ask its user to stop taking notes in the app. If they scheduled Record to join through Google Calendar, check for a recorder in the participant list and ask the organizer to remove it if present."
+      ],
+      "sources": [
+        "https://help.openai.com/en/articles/11487532-chatgpt-record",
+        "https://help.openai.com/en/articles/20001546-the-meetings-plugin-in-chatgpt"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/chatgpt-record"
+    },
+    {
+      "name": "Productive Notetaker",
+      "maker": "Productive",
+      "kind": "joins as a participant",
+      "shownAs": "Productive Notetaker",
+      "howToStop": [
+        "Before the meeting starts, its user switches the Notetaker toggle off for that meeting, and the bot is removed from it.",
+        "Once the meeting is under way, Productive locks the toggle: its user cannot stop the recording from Productive."
+      ],
+      "inACall": [
+        "If someone outside the Productive user's organization is hosting, ask that host to check the waiting room. Productive says only that host sees the request to join.",
+        "Once the bot is in the meeting, the host can remove it from the participant list. The owner’s Productive toggle locks at the scheduled start, so contact the meeting host if you need capture stopped during the call."
+      ],
+      "sources": [
+        "https://intercom.help/productive/en/articles/14470696-how-to-record-a-meeting-with-notetaker"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/productive-notetaker"
+    },
+    {
+      "name": "AudioCodes Meeting Insights (Mia)",
+      "maker": "AudioCodes",
+      "kind": "joins as a participant",
+      "shownAs": "a name set by the company, often “[first name] Meeting Assistant”",
+      "howToStop": [
+        "If you are the meeting owner or a co-organizer, open the Meeting Insights side panel. For a scheduled recording, the toolbar's Stop Recording control pauses Mia and the resume control starts it again.",
+        "For a call you never want recorded, ask the organizer before joining which of their participants is the Meeting Insights recorder. Its administrator may have customized the display name."
+      ],
+      "inACall": [
+        "Remove it from the list of people. On Google Meet: open People, click the three dots next to its name and choose Remove from the call, then Remove. On Zoom: open Participants, hover over its name, choose More → Remove, then OK.",
+        "AudioCodes says this can be done at any stage of the meeting, and that the recording stops when the bot is removed."
+      ],
+      "sources": [
+        "https://techdocs.audiocodes.com/meeting-insights/user-manual-nexgen/Content/UM/google-meet-meetings-remove-mia.htm",
+        "https://techdocs.audiocodes.com/meeting-insights/user-manual-nexgen/Content/UM/zoom-removing-mia.htm",
+        "https://techdocs.audiocodes.com/meeting-insights/user-manual-nexgen/Content/MI_UM/Pausing-Resuming-Meeting.htm"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/audiocodes-meeting-insights"
+    },
+    {
+      "name": "Motion AI Notetaker",
+      "maker": "Motion",
+      "kind": "joins as a participant",
+      "howToStop": [
+        "In Motion's conference settings, switch off Turn on AI Notetaker for all meetings with conferencing to change the default. For one sensitive call, turn off the option on that event instead.",
+        "If the bot was removed midcall, ask the person who sent it to leave it off. Motion lets its user send it back in, so agree before the discussion continues."
+      ],
+      "inACall": [
+        "Motion says anybody in the meeting, host or participant, can admit it or remove it. Remove it from the list of people.",
+        "If it comes back, its user re-added it; ask them directly."
+      ],
+      "sources": [
+        "https://usemotion.com/help/knowledge-management/ai-notetaker/reference-ai-notetaker",
+        "https://www.usemotion.com/help/knowledge-management/ai-notetaker/ai-notetaker-how-to-guide"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/motion-ai-notetaker"
+    },
+    {
+      "name": "Speak AI Meeting Assistant",
+      "maker": "Speak AI",
+      "kind": "joins as a participant",
+      "howToStop": [
+        "For one meeting, open Upcoming and switch Record off on the matching event. Confirm the calendar time before changing it when several calls have the same title.",
+        "For a repeated case, open Exclude Join Conditions and add a title keyword or attendee email that identifies the meetings to skip.",
+        "If your whole company needs to keep the assistant out of a customer’s calls, ask an admin for a shared exclude rule. Test the rule against the next calendar event, then check that its meeting row is off."
+      ],
+      "inACall": [
+        "If it is in the list of people, the host can remove it like any guest.",
+        "Its user can set a consent message that it posts in the meeting chat; if you see one, that tells you whose it is.",
+        "It leaves by itself when a call goes empty or silent, or when it is left waiting in a waiting room."
+      ],
+      "sources": [
+        "https://help.speakai.co/en/articles/14289267-meeting-assistant-complete-setup-and-usage-guide",
+        "https://help.speakai.co/en/articles/8267580-meeting-assistant-auto-join-functionality",
+        "https://help.speakai.co/en/articles/15880875-stop-the-meeting-assistant-from-joining-certain-meetings"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/speak-ai"
+    },
+    {
+      "name": "AskElephant",
+      "maker": "AskElephant",
+      "kind": "joins as a participant",
+      "howToStop": [
+        "Its user chooses no meetings under Preferences → Notetaker Settings, or marks a meeting as not recorded.",
+        "Its user can also choose whether it shows an AskElephant picture, so people know they are being recorded, or keeps it plain."
+      ],
+      "inACall": [
+        "If you see the bot in a waiting room, the host can keep it there. If the owner leaves and other people are still talking, the bot can continue to record.",
+        "The AskElephant user can open the meeting in AskElephant and click Remove to stop capture and start transcript processing. Ask the host to confirm it has left before the remaining group continues."
+      ],
+      "sources": [
+        "https://kb.askelephant.ai/article/notetaker-101",
+        "https://kb.askelephant.ai/article/end-recording-bot-stays-after-leave"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/askelephant"
+    },
+    {
+      "name": "Rev Notetaker",
+      "maker": "Rev",
+      "kind": "joins as a participant",
+      "howToStop": [
+        "In Meeting Hub, choose Meetings I manually select to have Rev join only when you switch on Add Rev. Leave that switch off for a one-time meeting you want to skip.",
+        "Recurring meetings have their own scope. When scheduling Rev on a recurring event, check the choices This event, This and following events, and All events. Check the specific date in Meeting Hub if someone asks to skip just one occurrence."
+      ],
+      "inACall": [
+        "It has to be admitted. If the host or an attendee does not let it in, it leaves and nothing is captured.",
+        "Rev says the host can remove it during the meeting, like any participant."
+      ],
+      "sources": [
+        "https://support.rev.com/hc/en-us/articles/29563392825741-Meeting-Hub-and-AI-Notetaker"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/rev-notetaker"
+    },
+    {
+      "name": "A bot built on Recall.ai",
+      "maker": "Recall.ai",
+      "kind": "joins as a participant",
+      "shownAs": "“Meeting Notetaker”, unless the product that sent it chose another name",
+      "howToStop": [
+        "Ask who invited it. Each bot is made for one meeting by one product, so somebody in the call — or the organiser's calendar — brought it.",
+        "Once you know the product, use that product's own way of keeping it out; many have a page on this site under its own name."
+      ],
+      "inACall": [
+        "Ask the meeting host to remove the visible participant if the call needs to proceed without that bot. Find the product that sent it because developers can choose their own display name.",
+        "If the app operator agrees to a temporary break, ask what its Pause Recording control pauses. Recall can still deliver configured participant events during a pause. If you need capture ended, ask the operator to use Stop Recording or have the host remove the bot."
+      ],
+      "sources": [
+        "https://docs.recall.ai/docs/bot-overview",
+        "https://docs.recall.ai/docs/automatic-leaving-behavior",
+        "https://docs.recall.ai/docs/recording-control"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/recall-ai-bot"
+    },
+    {
+      "name": "Ask Gemini in Google Meet",
+      "maker": "Google",
+      "kind": "built into the meeting app",
+      "howToStop": [
+        "Open the Calendar event's meeting options to turn Ask Gemini off before a call. During a call, the host or co-host can use the Gemini menu or the Gemini setting under Host controls.",
+        "For a meeting with a sensitive section, have the host check Take notes for me too. Turning off questions does not change the separate notes setting."
+      ],
+      "inACall": [
+        "It is not a participant, so there is nothing in the list of people to remove. Ask the host to turn it off if you would rather it was not used.",
+        "What each person asks it and what it answers is private to that person. It cannot answer about what was said before they joined, unless “Take notes for me” was already running."
+      ],
+      "sources": [
+        "https://knowledge.workspace.google.com/admin/meet/turn-ask-gemini-on-or-off-for-meet?hl=en",
+        "https://workspaceupdates.googleblog.com/2025/09/ask-gemini-in-google-meet.html"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/google-meet-ask-gemini"
+    },
+    {
+      "name": "Zoom Revenue Accelerator",
+      "maker": "Zoom",
+      "kind": "built into the meeting app",
+      "shownAs": "Zoom Recorder, on Teams and Google Meet",
+      "howToStop": [
+        "For an ongoing customer relationship, ask the company using Zoom Revenue Accelerator to check the external participant exclusion for your email domain. If meetings use a phone number, ask them to check that number too.",
+        "Give the salesperson the exact invitation or calling details before the next meeting. Account owners and admins separately configure the consent wording, so ask which recording settings apply to that call."
+      ],
+      "inACall": [
+        "Zoom shows notices in the meeting when Revenue Accelerator is on, and callers by phone hear an announcement. A company can also set up a consent prompt that people see before the meeting is recorded; their answers are logged.",
+        "On Teams and Google Meet, Zoom Recorder is a participant like any guest, so the host can remove it from the list of people."
+      ],
+      "sources": [
+        "https://library.zoom.com/business-services/zoom-revenue-accelerator/zoom-revenue-accelerator-explainer/how-zra-works",
+        "https://library.zoom.com/business-services/zoom-revenue-accelerator/zoom-revenue-accelerator-explainer/data-privacy-and-security-in-zra"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/zoom-revenue-accelerator"
+    },
+    {
+      "name": "A bot built on MeetingBaaS",
+      "maker": "MeetingBaaS",
+      "kind": "joins as a participant",
+      "shownAs": "whatever name the product that sent it typed in",
+      "howToStop": [
+        "Ask who invited the recorder before admitting a named guest. Meeting BaaS lets app developers choose the displayed name, so the label may not identify the product.",
+        "If you operate the app that sent it, find the scheduled bot for that meeting. The Leave meeting operation also cancels a bot that has been scheduled but has not spawned yet."
+      ],
+      "inACall": [
+        "The host can remove the bot from the meeting participant list. The app operator can also call Leave meeting using that bot's ID and check the final event that confirms it left."
+      ],
+      "sources": [
+        "https://docs.meetingbaas.com/docs/api-v2/getting-started/sending-a-bot",
+        "https://docs.meetingbaas.com/docs/api-v2/error-codes",
+        "https://docs.meetingbaas.com/docs/api-v2/getting-started/removing-a-bot",
+        "https://docs.meetingbaas.com/api-v2/reference/bots/leaveBot"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/meetingbaas-bot"
+    },
+    {
+      "name": "A bot built on Skribby",
+      "maker": "Skribby",
+      "kind": "joins as a participant",
+      "shownAs": "a display name chosen by the app that sent it",
+      "howToStop": [
+        "If the bot is in the lobby, have the host identify the requester before admitting it.",
+        "For the next appointment, ask the person who sent the bot to check their app's calendar setting for that event. If the organizer cannot identify the app, keep the guest in the lobby until they know whose recorder it is."
+      ],
+      "inACall": [
+        "The host can remove the guest from the participant list. The app operator can look for Skribby’s removal event to confirm that it left. For a repeating appointment, send the organizer the specific occurrence and the guest name shown in the participant list so they can trace the calendar event that triggered the recorder.",
+        "If another recording guest appears later, ask the organizer to identify the new participant separately before admitting it."
+      ],
+      "sources": [
+        "https://skribby.io/docs/guides/bot-naming",
+        "https://skribby.io/docs/guides/bot-lifecycle"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/skribby-bot"
+    },
+    {
+      "name": "A bot built on Nylas Notetaker",
+      "maker": "Nylas",
+      "kind": "joins as a participant",
+      "shownAs": "“Nylas Notetaker”, unless the product that sent it renamed it",
+      "howToStop": [
+        "Ask the host which app invited the bot. If it already joined, check chat for the recording notice. The product can write its own message and may identify itself there.",
+        "For the next call, have the account that scheduled the recorder disable it in the sending app. Ask that account to check the matching event rather than relying on the visible bot name."
+      ],
+      "inACall": [
+        "The host can remove it from the call; Nylas lists being removed among the ordinary reasons it disconnects.",
+        "Otherwise it stops when the meeting ends, or after five minutes of complete silence."
+      ],
+      "sources": [
+        "https://developer.nylas.com/docs/v3/notetaker/",
+        "https://developer.nylas.com/docs/reference/api/standalone-notetaker/invite-standalone-notetaker/",
+        "https://developer.nylas.com/docs/v3/notetaker/custom-announcements/",
+        "https://developer.nylas.com/docs/v3/notetaker/retention-policies/"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/nylas-notetaker"
+    },
+    {
+      "name": "A bot built on Vexa",
+      "maker": "Vexa",
+      "kind": "joins as a participant",
+      "shownAs": "“Vexa”, unless whoever runs it chose another name",
+      "howToStop": [
+        "Don't admit it. Leave it in the lobby, or deny it, until somebody says it is theirs.",
+        "Ask who is running it. Because anyone can run their own copy, the only reliable way to keep it out of future meetings is to ask that person to stop sending it."
+      ],
+      "inACall": [
+        "The host can remove the visible participant. The app operator can use Vexa's explicit stop to make the bot leave immediately and check that the session ended.",
+        "Vexa can leave after an extended period without remote microphone audio. When the host wants capture stopped now, remove it or ask the operator to stop it directly."
+      ],
+      "sources": [
+        "https://docs.vexa.ai/api/meetings",
+        "https://vexa.ai/pricing",
+        "https://docs.vexa.ai/how-to/send-a-bot"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/vexa-bot"
+    },
+    {
+      "name": "A bot built on Attendee",
+      "maker": "Attendee",
+      "kind": "joins as a participant",
+      "shownAs": "any name — Attendee has no default; whoever sends it must type one",
+      "howToStop": [
+        "Keep the guest in the lobby until someone can identify which app sent it. Since Attendee is self-hostable and the sender chooses the name, the organizer may need to ask each teammate what they have connected to their calendar.",
+        "Once you know the sender, ask them to disable the recording on the exact event or recurring series in their app."
+      ],
+      "inACall": [
+        "Remove it like any guest. It joins as an ordinary participant, so the host's usual controls work.",
+        "Left in a waiting room it gives up after a time its owner chose; once it is the only one left, it leaves after another set wait."
+      ],
+      "sources": [
+        "https://docs.attendee.dev/guides/basics",
+        "https://docs.attendee.dev/api-reference/tag/bots/post/api/v1/bots",
+        "https://attendee.dev"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/attendee-bot"
+    },
+    {
+      "name": "ScreenApp Notetaker",
+      "maker": "ScreenApp",
+      "kind": "joins as a participant",
+      "shownAs": "“<their name>'s Notetaker”",
+      "howToStop": [
+        "If you see a lobby guest named after a participant followed by Notetaker, ask that person whether it matches the name in their ScreenApp account.",
+        "For a call that should exclude the bot, keep it in the lobby. ScreenApp says it cannot join meetings that require sign-in. Check that such a setting still allows the people you actually invited to enter."
+      ],
+      "inACall": [
+        "Remove it from the participant list. Its user can send a new one from their ScreenApp page, so if it comes back, ask them directly.",
+        "The name tells you whose it is — the part before “'s Notetaker” is the name in that person's ScreenApp profile."
+      ],
+      "sources": [
+        "https://screenapp.io/help/how-to-record-meetings-with-meeting-bot"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/screenapp-notetaker"
+    },
+    {
+      "name": "Intelligent recap in Microsoft Teams",
+      "maker": "Microsoft",
+      "kind": "built into the meeting app",
+      "howToStop": [
+        "For ordinary intelligent recap, check whether transcription is on. For a meeting using Copilot without transcript retention, also check the organizer’s separate recap option in Meeting options.",
+        "During the meeting, an organizer, co-organizer or presenter with a Copilot license can change that recap option in the meeting controls. If your organization needs to disable the feature across meetings, ask its Teams admin to review the meeting policy."
+      ],
+      "inACall": [
+        "It is not a participant, so there is nothing to remove from the list of people. What to look for is transcription or recording being switched on.",
+        "Ask the organiser to stop transcription, or to switch the recap off in the meeting controls. A guest cannot switch it off."
+      ],
+      "sources": [
+        "https://learn.microsoft.com/en-us/microsoftteams/intelligent-recap-calls-meetings",
+        "https://learn.microsoft.com/en-us/microsoftteams/intelligent-recap-without-saving-transcripts"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/teams-intelligent-recap"
+    },
+    {
+      "name": "Zoom AI meeting questions",
+      "maker": "Zoom",
+      "kind": "built into the meeting app",
+      "howToStop": [
+        "If you host the call, open the AI controls and switch off Meeting Questions. Review Meeting Summary too if the request is to stop both features.",
+        "If someone wants to remove previously generated material, confirm whether they are asking about a meeting transcript or summary before deleting anything from the meeting controls."
+      ],
+      "inACall": [
+        "If you are not the host, send the host a request to turn meeting questions off — Zoom lets participants do that during the meeting.",
+        "If the icon is grey rather than lit, neither meeting questions nor meeting summary is running."
+      ],
+      "sources": [
+        "https://library.zoom.com/ai/ai-whitepaper/zoom-ai-features",
+        "https://library.zoom.com/ai/ai-whitepaper/user-transparency-and-notice",
+        "https://library.zoom.com/ai/ai-whitepaper/administrative-controls"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/zoom-ai-meeting-questions"
+    },
+    {
+      "name": "Zoom My Notes",
+      "maker": "Zoom",
+      "kind": "records on its owner's computer, not in the call",
+      "howToStop": [
+        "Open My Notes and use Pause to stop transcribing part of a conversation. Use Resume to continue in the same note, or Done and Complete to finish it.",
+        "If you are speaking in a Zoom call, look for the transcription indicator and use Ask host to stop transcription. If someone is running My Notes while attending another platform, ask the person using it to pause on their own device."
+      ],
+      "inACall": [
+        "In Zoom, open the transcription indicator and use Ask host to stop transcription. If you are hosting, check the transcription controls and confirm the status after stopping it.",
+        "In Teams or Meet, ask the person using My Notes to pause or end it directly in their note. Check that they have done so before continuing the conversation."
+      ],
+      "sources": [
+        "https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0083849",
+        "https://library.zoom.com/ai/ai-whitepaper/my-notes"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/zoom-my-notes"
+    },
+    {
+      "name": "Livestorm recording and transcripts",
+      "maker": "Livestorm",
+      "kind": "built into the meeting app",
+      "howToStop": [
+        "Before the event starts, open Settings → Recording & on-demand and turn off Automatically record upon event start. Check the change before opening a live session you intend to keep unrecorded.",
+        "If the session is already running, have the organizer pause capture before bringing a guest on stage. An empty stage with no shared content can also cause recording to pause automatically."
+      ],
+      "inACall": [
+        "If you are on stage, the recording includes you. Ask the organiser to pause the recording before you speak, or stay off stage — when nobody is on stage and nothing is shared for 30 seconds, the recording pauses by itself.",
+        "If you are watching from the audience rather than on stage, only what is on stage is recorded — the chat is not."
+      ],
+      "sources": [
+        "https://support.livestorm.co/article/250-record-your-event",
+        "https://support.livestorm.co/article/38-event-replay",
+        "https://support.livestorm.co/article/254-transcript"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/livestorm-recording"
+    },
+    {
+      "name": "Zia keynotes in Zoho Meeting",
+      "maker": "Zoho",
+      "kind": "built into the meeting app",
+      "howToStop": [
+        "If you are the presenter, use Pause recording to skip a section of the conversation or Stop recording to finish. Agree with the attendees before you choose Resume recording.",
+        "If the request is about Zia keynotes rather than video, check the meeting transcript setting. Zoho uses the transcript of the recording to generate Zia keynotes."
+      ],
+      "inACall": [
+        "Ask the presenter to stop or pause the recording; the buttons are on the meeting toolbar.",
+        "Zoho's help pages do not say how other people in the call are told that it is recording. If you are not sure, ask."
+      ],
+      "sources": [
+        "https://help.zoho.com/portal/en/kb/meeting/user-guide/integrations/zia/articles/zia-ai",
+        "https://help.zoho.com/portal/en/kb/meeting/user-guide/meetings/record-a-meeting/articles/record-a-meeting"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/zoho-meeting-zia"
+    },
+    {
+      "name": "Lark AI Notes",
+      "maker": "Lark",
+      "kind": "built into the meeting app",
+      "howToStop": [
+        "Use AI summary in the toolbar, or hover over the AI summarizing indicator and choose Turn Off. If the organizer limited the controls, ask them to make the change.",
+        "Closing the Summary and subtitles pane hides it from your screen. Use the actual summary control before starting a discussion you want left out of the notes."
+      ],
+      "inACall": [
+        "Look for the AI summarizing icon at the top. If you would rather not be summarised, turn it off yourself — Lark lets any participant do that by default — and say so.",
+        "Once it is off, Lark makes no AI Notes document for the meeting."
+      ],
+      "sources": [
+        "https://larksuite.com/hc/en-US/articles/999812252559"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/lark-ai-notes"
+    },
+    {
+      "name": "GoTo Meeting recording and transcripts",
+      "maker": "GoTo",
+      "kind": "built into the meeting app",
+      "howToStop": [
+        "An organizer or co-organizer selects Record again to pause or stop the meeting recording. Pause before a private section and use the indicator to confirm the change.",
+        "If you resume later, GoTo keeps the captured sections in one file. Ending the session stops recording for everybody."
+      ],
+      "inACall": [
+        "Only organisers and co-organisers can record, so a guest has to ask the organiser to stop. The glowing Record icon tells you whether it is still running.",
+        "Pausing and starting again does not split the file: what comes before and after the pause ends up in one recording."
+      ],
+      "sources": [
+        "https://support.goto.com/meeting/help/how-do-i-record-a-meeting",
+        "https://support.goto.com/meeting/help/how-do-i-use-goto-transcriptions"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/goto-meeting-recording"
+    },
+    {
+      "name": "Webex meeting recording",
+      "maker": "Cisco",
+      "kind": "built into the meeting app",
+      "howToStop": [
+        "Before the call, ask the person scheduling it to check automatic recording. If the host is absent, a cohost who assumes the host role can operate the recorder.",
+        "During the call, ask the acting host to use the recording control to pause or stop. Confirm the recording indicator has changed before discussing the private portion."
+      ],
+      "inACall": [
+        "Look at the top right of the meeting window: the recording indicator shows while the meeting is being recorded.",
+        "Only the host (or the cohost acting as host) can stop it. If you are an attendee, ask them. A meeting started by phone cannot be recorded."
+      ],
+      "sources": [
+        "https://help.webex.com/en-us/article/n62735y/Webex-Record-a-Meeting"
+      ],
+      "read": "2026-11-11",
+      "page": "https://meetful.com/notetakers/webex-recording"
+    }
+  ]
+}
